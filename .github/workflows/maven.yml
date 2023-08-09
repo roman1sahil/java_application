@@ -29,3 +29,4 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Execute jar file
       run: sudo kill -9 'sudo lsof -t -i:90' & sudo java -jar /home/ubuntu/actions-runner/_work/java_application/java_application/target/demo-0.0.1-SNAPSHOT.jar &
+
