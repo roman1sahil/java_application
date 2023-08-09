@@ -7,6 +7,6 @@ public class UserController.java
 @RequestMapping("/")  
 public String demo()   
 {  
-return "Hello java";  
+return "Hello sahil"; 
 }  
 }  
